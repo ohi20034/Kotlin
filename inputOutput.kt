@@ -5,7 +5,7 @@ fun main() {
     print("Enter a number: ")
     var reader = Scanner(System.`in`)
     var num = reader.nextInt()
-    println(num)
+    println("Input Number is = $num")
 
     reader.nextLine() // ignore buffer problem
 
