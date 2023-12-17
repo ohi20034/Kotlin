@@ -1,4 +1,5 @@
-fun main()
-{
-    println("hello world");
+fun main() {
+    var name: String
+    name = "Ohi"
+    println(name)
 }
