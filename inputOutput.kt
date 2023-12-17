@@ -13,7 +13,7 @@ fun main() {
     print("Enter a string: ")
     var string = reader.nextLine()
     println(string)
-
+    println(string.length)
     // taking input a double number
     print("Enter a double value: ")
     var double = reader.nextDouble()
