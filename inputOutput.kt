@@ -23,4 +23,19 @@ fun main() {
     print("Enter a flaot value: ")
     var float = reader.nextFloat()
     println(float)
+
+
+    // without scanner class
+    
+    print("Enter a number ")
+    val number = readLine()!!.toInt()
+    println("The number is $number")
+
+    print("Enter a String ")
+    val aString = readLine()!!
+    println("The string is: $aString")
+
+    print("Enter a double value: ")
+    val doubleVal = readLine()!!.toDouble()
+    println("The string is: $doubleVal")
 }
