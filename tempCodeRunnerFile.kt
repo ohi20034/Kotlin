@@ -1,1 +1,1 @@
-string1
+${myArr[i]

@@ -24,9 +24,8 @@ fun main() {
     var float = reader.nextFloat()
     println(float)
 
-
-    // without scanner class
     
+    // without scanner class
     print("Enter a number ")
     val number = readLine()!!.toInt()
     println("The number is $number")
